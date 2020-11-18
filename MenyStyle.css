@@ -1,0 +1,48 @@
+body {
+    background-image: url('italia.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: right;
+    margin-top: 1vh;
+    display: block;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    border: 1% solid black;
+    border-radius: 2px;
+    background-color: black;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #d1ce1c;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+.imgPizza {
+    width: 25%;
+    height: 25%;
+    
+}
+  

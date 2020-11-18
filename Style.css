@@ -9,7 +9,7 @@ body {
   color: whitesmoke;
   background-image: url(pizza.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .box {
@@ -61,12 +61,14 @@ body {
 
 .topnav a {
   float: right;
+  margin-top: 1vh;
   display: block;
-  color: #f2f2f2;
+  color: #f0f0f0;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: bolder;
 }
 
 .topnav a:hover {
